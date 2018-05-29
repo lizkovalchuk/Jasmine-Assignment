@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Assignment 2</title>
+</head>
+<body>
+	<h1>Login Form</h1>
+	<form name="loginForm" onsubmit="submit_form(); return false">
+		<fieldset>
+			<legend>User Authentication:</legend>
+			<label for="loginForm__input_name">Name:</label>
+			<input id="loginForm__input_name" type="text" name="name">
+			<br>
+			<label for="loginForm__input_password">Password:</label>
+			<input id="loginForm__input_password" type="password" name="password">
+			<br>
+			<input id="form__input_submit" type="submit" value="submit">
+		</fieldset>
+	</form>
+	<div id="getMD5__output"></div>
+	<script type="text/javascript" src="md5.js"></script>
+	<script type="text/javascript" src="assign2.js"></script>
+</body>
+</html>
